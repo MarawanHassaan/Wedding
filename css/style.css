@@ -302,6 +302,11 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+    #fh5co-header {
+        background-position: center top !important;
+    }
+}
 .fh5co-cover .overlay {
   z-index: 0;
   position: absolute;
